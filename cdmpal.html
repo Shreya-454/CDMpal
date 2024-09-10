@@ -19,12 +19,20 @@
             padding: 0;
             font-family: "Roboto", sans-serif;
         }
+        .d_sm_none{
+            display: none !important;
+        }
 
         @media (max-width:576px) {
             .d_inline_grid {
                 display: inline-grid !important;
             }
-
+            .pl_0{
+                padding-left: 0 !important;
+            }
+            .d_sm_none{
+                display: block !important;
+            }
             .w_100 {
                 width: 100% !important;
             }
@@ -33,14 +41,12 @@
                 padding: 30px 16px !important;
             }
 
-            .pt_15 {
-                padding-top: 15px !important;
-            }
-
             .d_inline_grid {
                 display: inline-grid !important;
             }
-
+            .pr_10{
+                padding-right: 10px !important;
+            }
             .text_center {
                 text-align: center !important;
             }
@@ -60,15 +66,18 @@
             .pb_40 {
                 padding-bottom: 40px !important;
             }
-
+            .py_40{
+                padding: 40px 0 !important;
+            }
             .main_padding {
                 padding: 40px 20px !important;
             }
-
             .p_16_20 {
                 padding: 16px 20px !important;
             }
-
+            .individual_bg{
+                background-size: cover !important;
+            }
             .px_20 {
                 padding: 0 20px !important;
             }
@@ -77,21 +86,35 @@
             }
             .text_black {
                 color: black !important;
-                ;
             }
 
             .pt_40 {
                 padding-top: 40px !important;
             }
-
+            .d_none{
+                display: none !important;
+            }
             .patient_bg {
                 background-size: 211% 100% !important;
             }
-
+            .pt_109{
+                padding-top: 109px !important;
+            }
             .mx_100 {
                 max-width: 100% !important;
             }
+             .bg_cover {
+          background-size: cover !important;
         }
+        .h_100 {
+          height: 100% !important;
+        }
+    
+            .px_100{
+                padding: 100px 0 !important;
+            }
+        }
+        
     </style>
 </head>
 
@@ -99,7 +122,7 @@
     <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; background-color: #E0E0E0">
         <tbody>
             <tr>
-                <td cellpadding="0" cellspacing="0" border="0" style="width: 100%; padding: 90px 0px ">
+                <td class="py_40" cellpadding="0" cellspacing="0" border="0" style="width: 100%; padding: 90px 0px ">
                     <center style="width: 100%; table-layout: fixed">
                         <table cellpadding="0" cellspacing="0" border="0"
                             style="width: 100%;max-width: 650px; margin: 0 auto; background-color: white">
@@ -123,14 +146,14 @@
                                                         <tr>
                                                             <td class="text_center mx_100">
                                                                 <h1 class="mx_100"
-                                                                    style="font-weight: 700; font-size: 24px;line-height: 140%;color: white;max-width: 266px;">
+                                                                    style="font-weight: 700; padding-bottom: 26px; font-size: 24px;line-height: 140%;color: white;max-width: 266px;">
                                                                     Introducing CDMpal For Better Patient Practitioner
                                                                     Interactions</h1>
                                                             </td>
                                                         </tr>
                                                     </table>
                                                 </td>
-                                                <td class="w_100 pt_15" style="width: 50%;">
+                                                <td class="w_100" style="width: 50%;">
                                                     <table style="width: 100%;">
                                                         <tr>
                                                             <td class="text_center w_100" style="line-height: 0;"><img
@@ -150,7 +173,7 @@
                                  <td class="p_16_20" style="padding: 40px 60px;">
                                      <table style="width: 100%;">
                                          <tr>
-                                            <td style="background-image: url(https://i.postimg.cc/y8KQMT3V/ceo.png); background-color: #ECF9FD; padding: 11px 20px 12px 24px; background-size: 100% 100%;">
+                                            <td style="background-image: url(https://i.postimg.cc/y8KQMT3V/ceo.png); background-color: #ECF9FD; padding: 11px 20px 12px 24px; border-radius: 11px; background-size: 100% 100%;">
                                                 <table style="width: 100%;">
                                                     <tr>
                                                         <td>
@@ -164,33 +187,56 @@
                                      </table>
                                  </td>
                              </tr>
-                             <tr><td style="border: 1px dashed #3F559E;"></td></tr>
+                             <tr>
+                                <td style="line-height: 0">
+                                  <img
+                                    style="width: 100%"
+                                    width="650"
+                                    src="https://i.postimg.cc/KcRwQtT0/dashed-border.png"
+                                    alt="dashed-border"
+                                  />
+                                </td>
+                              </tr>
 
                                <!-- ========= patient ========== -->
                             <tr>
-                                <td class="pt_40" style="padding-top: 70px;">
+                                <td class="pt_40" style="padding-top: 70px; max-width: 650px;">
                                     <table  cellpadding="0" cellspacing="0" border="0"
-                            style="width: 100%;">
+                            style="width: 100%; max-width: 650px;">
+                            <tr>
+                                <td>
+                                    <table style="width: 100%;">
                                         <tr>
+                                            <td> <h2 class="text_center d_sm_none pt_16"
+                                                                            style="font-weight: 600;font-size: 24px;color: black;max-width: 272px; padding-left: 60px; line-height: 117%;">
+                                                                            Imagine a world where <span style="color: #3CC0EC;">patients</span> have the tools to </h2></td>
+                                                                            
+                                        
+                                                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+  <tr>
                                             <td class="patient_bg"
-                                                style="background-image: url(https://i.postimg.cc/Vv3qzKHK/sky-bg.png);  background-size: 100% 100%;">
+                                                style="background-image: url(https://i.postimg.cc/7LDh5LWR/patient-bg.png); line-height: 0; background-size: 100% 100%;">
                                                 <table cellpadding="0" cellspacing="0" border="0" style="width: 100%;">
                                                     <tr class="d_inline_grid w_100">
-                                                        <td class="text_center">
-                                                            <img src="https://i.postimg.cc/GmRMYpqq/patient.png"
-                                                                width="371" height="394" alt="patient">
-                                                        </td>
-                                                        <td class="text_center px_20" style="padding-right: 60px;">
-                                                            <h2 class="text_center pt_16"
+                                                       
+                                                        <td class="text_center px_20" style="padding-right: 60px; padding-left: 300px;">
+                                                            <h2 class="text_center d_none pt_16"
                                                                 style="font-weight: 600;font-size: 24px;color: black; text-wrap: nowrap; line-height: 117%;">
                                                                 Imagine a world where </h2>
-                                                            <h2 class="text_center"
+                                                            <h2 class="text_center d_none"
                                                                 style="font-weight: 600;font-size: 24px;color: black; text-wrap: nowrap; padding-bottom: 30px; line-height: 117%;">
                                                                 <span class="text_black" style="color: #3CC0EC;">patients</span> have the
                                                                 tools to</h2>
-                                                            <table style="width: 100%;" class="text_center">
+                                                                
+                                                            <table style="width: 100%;" class="text_center pt_109">
                                                                 <tr class="text_center">
-                                                                    <td style="padding-right: 14px;">
+                                                                    <td style="padding-right: 14px; max-width: 135px; width: 135px;">
                                                                         <table cellpadding="0" cellspacing="0"
                                                                             border="0" style="width: 100%;">
                                                                             <tr>
@@ -209,7 +255,7 @@
                                                                         </table>
                                                                     </td>
                                                                     <td
-                                                                        style="border-radius: 10px; max-width: 129px; background: white; padding: 10px; border: 1px solid #D6D6D6; max-height: 130px;">
+                                                                        style="border-radius: 10px; max-width: 129px; width: 129px; background: white; padding: 10px; border: 1px solid #D6D6D6; max-height: 130px;">
                                                                         <img src="https://i.postimg.cc/TYBcq30Z/store.png"
                                                                             width="24" height="24"
                                                                             style="padding-bottom: 8px;" alt="track">
@@ -219,36 +265,35 @@
                                                                     </td>
                                                                 </tr>
                                                                  <tr class="text_center">
-                                                                    <td style="padding: 14px 14px 14px 0;">
+                                                                    <td style="padding: 13px 14px 28px 0; max-width: 129px; width: 129px;">
                                                                         <table cellpadding="0" cellspacing="0"
                                                                             border="0" style="width: 100%;">
                                                                             <tr>
                                                                                 <td
-                                                                                    style="border-radius: 10px; max-width: 129px; background: white; padding: 10px; border: 1px solid #D6D6D6; max-height: 130px;">
-                                                                                    <img  class="text_center" src="https://i.postimg.cc/rpNzmfzf/track.png"
+                                                                                    style="border-radius: 10px;width: 129px; max-width: 129px; background: white; padding: 10px; border: 1px solid #D6D6D6; max-height: 130px;">
+                                                                                    <img  class="text_center" src="https://i.postimg.cc/RFD1wYy2/reminder.png"
                                                                                         width="24" height="24"
                                                                                         style="padding-bottom: 8px;"
                                                                                         alt="track">
                                                                                     <p class="text_center"
-                                                                                        style="font-weight: 400; margin: 0 auto; font-size: 14px;color: #4D4D4D; max-width: 109px; line-height: 117%; padding-bottom: 25px;">
-                                                                                        Track symptoms and medications
-                                                                                        with ease</p>
+                                                                                        style="font-weight: 400; margin: 0 auto; font-size: 14px;color: #4D4D4D; max-width: 109px; line-height: 117%; padding-bottom: 29px;">
+                                                                                        Set reminders for appointments and screenings</p>
                                                                                 </td>
                                                                             </tr>
                                                                         </table>
                                                                     </td>
-                                                                    <td style="padding-top: 14px; padding-bottom: 10px;">
+                                                                    <td style="padding-top: 16px; max-width: 129px; width: 129px; padding-bottom: 30px;">
                                                                         <table cellpadding="0" cellspacing="0"
                                                                             border="0" style="width: 100%;">
                                                                             <tr>
                                                                                 <td
-                                                                                    style="border-radius: 10px; max-width: 129px; background: white; padding: 10px; border: 1px solid #D6D6D6; max-height: 130px;">
-                                                                                    <img class="text_center" src="https://i.postimg.cc/TYBcq30Z/store.png"
+                                                                                    style="border-radius: 10px; max-width: 129px; width: 129px; background: white; padding: 10px; border: 1px solid #D6D6D6; max-height: 130px;">
+                                                                                    <img class="text_center" src="https://i.postimg.cc/90fmH8fX/share.png"
                                                                                         width="24" height="24"
                                                                                         style="padding-bottom: 8px;" alt="track">
                                                                                     <p class="text_center"
-                                                                                        style=" margin: 0 auto; font-weight: 400;font-size: 14px;color: #4D4D4D; max-width: 109px; line-height: 117%; padding-bottom: 25px;">
-                                                                                        Store vital medical records securely</p>
+                                                                                        style=" margin: 0 auto; font-weight: 400;font-size: 14px;color: #4D4D4D; max-width: 109px; line-height: 117%;">
+                                                                                        Share health information seamlessly with their healthcare providers</p>
                                                                                 </td>
                                                                             </tr>
                                                                         </table>
@@ -261,7 +306,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td class="p_16_20" style="background: #3F559E; padding: 30px 60px;">
+                                            <td class="p_16_20" style="background: #3F559E; max-width: 650px; padding: 30px 60px;">
                                                 <table cellpadding="0" cellspacing="0" border="0"
                             style="width: 100%;">
                                                     <tr>
@@ -269,24 +314,24 @@
                                                             <table cellpadding="0" cellspacing="0" border="0"
                             style="width: 100%;">
                                                                 <tr class="d_inline_grid w_100">
-                                                                    <td class="pr_0 text_center" style="padding-right: 24px;">
+                                                                    <td class="pr_0 text_center w_100 mx_100" style="width: 253px; padding-right: 9px; max-width: 253px;">
                                                                         <table cellpadding="0" cellspacing="0" border="0"
                                                                                             style="width: 100%;">
                                                                             <tr>
-                                                                                <td style="background: white; height: 116px; max-width: 253px; padding: 12px; border-radius: 10px;">
+                                                                                <td class="w_100 " style="background: white; height: 116px;width: 253px; padding: 12px; border-radius: 10px;">
                                                                                     <p style="color: #3CC0EC; padding-bottom: 8px; font-size: 16px; font-weight: 500; line-height: 130%;">That's the power of CDMpal</p>
                                                                                     <p class="mx_100" style="font-size: 14px;font-weight: 400; max-width: 253px; line-height: 150%;color: #4D4D4D;">Our user-friendly app puts patients in control of their health journey, saving them time and reducing stress.</p>
                                                                                 </td>
                                                                             </tr>
                                                                         </table>
                                                                     </td>
-                                                                    <td class="pt_16">
+                                                                    <td style="width: 253px; max-width: 253px; padding-left: 9px;" class="pt_16 mx_100 w_100 pl_0">
                                                                         <table cellpadding="0" cellspacing="0" border="0"
                                                                                             style="width: 100%;">
                                                                             <tr>
-                                                                                <td style="background: white; height: 116px; max-width: 253px; padding: 12px; border-radius: 10px;">
+                                                                                <td class="w_100" style="background: white; height: 116px; max-width: 253px; padding: 12px; border-radius: 10px;">
                                                                                     <p class="text_center" style="color: #3F559E; padding-bottom: 8px; font-size: 16px; font-weight: 500; line-height: 130%;">Join the movement towards patient-centered care</p>
-                                                                                    <p class="text_center" style="font-size: 14px;font-weight: 400; padding-bottom: 20px;  line-height: 150%;color: #4D4D4D;">Empower your patients with CDMpal.</p>
+                                                                                    <p class="text_center" style="font-size: 14px;font-weight: 400; padding-bottom: 45px; text-wrap: nowrap; line-height: 150%;color: #4D4D4D;">Empower your patients with CDMpal.</p>
                                                                                 </td>
                                                                             </tr>
                                                                         </table>
@@ -299,7 +344,7 @@
                                                         <td>
                                                             <table class="pt_16" style="width: 100%; padding-top: 24px;">
                                                                 <tr>
-                                                                    <td style="background-image: url(https://i.postimg.cc/vmWFdm3n/line-bg.png); background: white; padding: 20px 24px; background-size: 100% 100%;">
+                                                                    <td style="background-image: url(https://i.postimg.cc/vmWFdm3n/line-bg.png); background-color: white; border-radius: 11px; padding: 20px 24px; background-size: 100% 100%;">
                                                                         <p style="color: #4D4D4D; font-weight: 400; font-size: 14px; line-height: 150%;">Feel free to explore and use CDMpal for your patient-clinician interactions.</p>
                                                                         <p style="padding: 8px 0; color: #000000; line-height: 130%; font-size: 14px; font-weight: 500;">Dr Dan Wijeratne</p>
                                                                          <p style="color: #4D4D4D; font-weight: 400; font-size: 14px; line-height: 150%;">GP, Author and CEO of Modern Innovations Pty Ltd</p>
@@ -314,6 +359,10 @@
                                     </table>
                                 </td>
                             </tr>
+                                      
+                                    </table>
+                                </td>
+                            </tr>
 
                               <!-- ==========================Why Do Patients Need CDMpal?=========================-->
                   <tr>
@@ -322,7 +371,7 @@
                         cellpadding="0"
                         cellspacing="0"
                         border="0"
-                        style="width: 100%"
+                        style="width: 100%; max-width: 650px;"
                       >
                         <tr>
                           <td
@@ -564,8 +613,9 @@
                   <!-- ==========================Individuals and Families================ -->
                   <tr>
                     <td
-                      class="bg_cover padding_30_16"
+                      class=" individual_bg padding_30_16"
                       style="
+                      max-width: 650px;
                         padding: 80px 60px 30px 60px;
                         background-image: url(https://i.postimg.cc/s2nQjkw9/medical-software.png);
                         background-size: 100% 100%;
@@ -645,7 +695,7 @@
                                     border="0"
                                     style="
                                       border: 1px solid #00000029;
-                                      padding: 13px;
+                                      padding: 14px;
                                       border-radius: 10px;
                                       width: 100%;
                                       background: white;
@@ -711,8 +761,8 @@
                                   </table>
                                 </td>
                                 <td
-                                  class="w_100 p_0"
-                                  style="width: 50%; padding: 34px 0 193px 12px"
+                                  class="w_100 p_0 pl_0"
+                                  style="width: 50%; padding: 34px 0 240px 12px"
                                 >
                                   <table
                                     cellpadding="0"
@@ -720,7 +770,7 @@
                                     border="0"
                                     style="
                                       border: 1px solid #00000029;
-                                      padding: 13px;
+                                      padding: 14px;
                                       border-radius: 10px;
                                       width: 100%;
                                       background: white;
@@ -802,7 +852,7 @@
                                     border="0"
                                     style="
                                       border: 1px solid #00000029;
-                                      padding: 13px;
+                                      padding: 14px;
                                       border-radius: 10px;
                                       width: 100%;
                                       background: white;
@@ -868,7 +918,7 @@
                                   </table>
                                 </td>
                                 <td
-                                  class="w_100 p_0"
+                                  class="w_100 p_0 pl_0"
                                   style="width: 50%; padding: 34px 0 0 12px"
                                 >
                                   <table
@@ -877,7 +927,7 @@
                                     border="0"
                                     style="
                                       border: 1px solid #00000029;
-                                      padding: 13px;
+                                      padding: 14px;
                                       border-radius: 10px;
                                       width: 100%;
                                       background: white;
@@ -952,7 +1002,7 @@
 
                     <tr>
             <td style="background: #46C3ED;width: 100%;padding: 30px 60px;">
-                <table cellpadding="0" cellspacing="0" border="0">
+                <table cellpadding="0" cellspacing="0" border="0" >
                     <tr>
                         <td style="background-color: white; border-radius: 10px;width: 100%;">
                             <p
@@ -1011,13 +1061,13 @@
                                                                         <p class="text_center"
                                                                             style="font-weight: 400;font-size: 14px;line-height: 150%; color: #333333;">
                                                                             CDMpal for Pain Management
-                                                                            <span style="color: #3F559E;">Reduce
+                                                                            <span style="color: #3F559E; font-weight: 600;">Reduce
                                                                                 guesswork</span>
                                                                         </p>
                                                                         <p class="text_center"
                                                                             style="font-weight: 400;font-size: 14px;line-height: 150%; color: #333333; padding: 10px 0;">
                                                                             CDMpal for CKD, CCF, IHD, Diabetes
-                                                                            <span style="color: #3F559E;">Track and
+                                                                            <span style="color: #3F559E; font-weight: 600;">Track and
                                                                                 monitor home recordings in one
                                                                                 place</span>
                                                                         </p>
@@ -1026,7 +1076,7 @@
                                                                             CDMpal for paediatrics, rheumatology and
                                                                             neurology care</p>
                                                                         <p class="text_center"
-                                                                            style="font-weight: 400;font-size: 14px;line-height: 150%; color: #3F559E;">
+                                                                            style="font-weight: 600;font-size: 14px;line-height: 150%;  color: #3F559E;">
                                                                             Monitor progress easily</p>
                                                                     </td>
                                                                 </tr>
@@ -1079,8 +1129,8 @@
                                                             <h3
                                                                 style="font-weight: 700; padding-bottom: 10px; font-size: 20px; line-height: 130%; color: #3F559E;">
                                                                 Is CDMpal secure?</h3>
-                                                            <p
-                                                                style="color: #4D4D4D; padding-bottom: 24px; font-weight: 400;font-size: 14px; line-height: 150%;">
+                                                            <p class="pr_0"
+                                                                style="color: #4D4D4D; padding-bottom: 24px; padding-right: 3px; font-weight: 400;font-size: 14px; line-height: 150%;">
                                                                 Absolutely, We prioritise your privacy and security.
                                                                 CDMpal uses bank-level encryption to protect your
                                                                 personal and medical information, ensuring it remains
@@ -1162,9 +1212,9 @@
                                         <tr>
                                             <td style="text-align: center; padding-bottom: 45px;">
                                                 <table cellpadding="0" cellspacing="0" border="0"
-                                                    style="width: 100%; max-width: 197px; margin: 0 auto;">
+                                                    style="width: 100%; max-width: 200px; margin: 0 auto;">
                                                     <tr>
-                                                        <td style="padding-right: 24px;">
+                                                        <td class="pr_10" style="padding-right: 24px;">
                                                             <a href="#contact"
                                                                 style="font-weight: 500; text-decoration: none; list-style: none; color: #D9DDEC; font-size: 14px; line-height: 150%;">Contact
                                                                 us</a>
